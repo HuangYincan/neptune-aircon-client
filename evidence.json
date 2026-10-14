@@ -1,0 +1,187 @@
+{
+  "observed_on": "2026-10-14",
+  "source": {
+    "file": "app.398cbb78cbd976934e3e.js",
+    "url": "https://wx.hzxwwl.com/prod/air/static/js/app.398cbb78cbd976934e3e.js",
+    "bytes": 1565693,
+    "sha256": "aa2f28702ce025cdcc68fb66c18080a53eacf4e1546a644ab6f6c24e1981219b"
+  },
+  "source_locations": [
+    {
+      "symbol": "gi",
+      "start_utf16": 626289,
+      "end_utf16": 627052
+    },
+    {
+      "symbol": "getCookie",
+      "start_utf16": 695926,
+      "end_utf16": 696068
+    },
+    {
+      "symbol": "oa",
+      "start_utf16": 718315,
+      "end_utf16": 718625
+    },
+    {
+      "symbol": "ma",
+      "start_utf16": 719902,
+      "end_utf16": 720190
+    },
+    {
+      "symbol": "zdgetProfile",
+      "start_utf16": 726202,
+      "end_utf16": 726317
+    },
+    {
+      "symbol": "zdgetRunningStatusInfo",
+      "start_utf16": 726318,
+      "end_utf16": 726453
+    },
+    {
+      "symbol": "zdcommandTemperature",
+      "start_utf16": 726454,
+      "end_utf16": 726578
+    },
+    {
+      "symbol": "zddeviceSelfClean",
+      "start_utf16": 726695,
+      "end_utf16": 726878
+    },
+    {
+      "symbol": "zddeviceEco",
+      "start_utf16": 726879,
+      "end_utf16": 727049
+    },
+    {
+      "symbol": "zdcommandWindSpeed",
+      "start_utf16": 727050,
+      "end_utf16": 727170
+    },
+    {
+      "symbol": "zdcommandModel",
+      "start_utf16": 727171,
+      "end_utf16": 727283
+    },
+    {
+      "symbol": "zdcommandElectricHeat",
+      "start_utf16": 727662,
+      "end_utf16": 727788
+    },
+    {
+      "symbol": "zdcommandWindLeftRight",
+      "start_utf16": 727789,
+      "end_utf16": 727917
+    },
+    {
+      "symbol": "zdcommandWindUpDown",
+      "start_utf16": 727918,
+      "end_utf16": 728040
+    },
+    {
+      "symbol": "zdcommandSwitching",
+      "start_utf16": 728041,
+      "end_utf16": 728161
+    },
+    {
+      "symbol": "getAcAuth",
+      "start_utf16": 732320,
+      "end_utf16": 732440
+    },
+    {
+      "symbol": "control_component_data",
+      "start_utf16": 673910,
+      "end_utf16": 674345
+    },
+    {
+      "symbol": "control_component_data",
+      "start_utf16": 695273,
+      "end_utf16": 695683
+    },
+    {
+      "symbol": "Sn",
+      "start_utf16": 694911,
+      "end_utf16": 695000
+    },
+    {
+      "symbol": "Fn",
+      "start_utf16": 695001,
+      "end_utf16": 695090
+    },
+    {
+      "symbol": "wa",
+      "start_utf16": 720305,
+      "end_utf16": 720431
+    },
+    {
+      "symbol": "ha",
+      "start_utf16": 720431,
+      "end_utf16": 720595
+    },
+    {
+      "symbol": "xa",
+      "start_utf16": 720595,
+      "end_utf16": 720733
+    }
+  ],
+  "cached_observations": {
+    "successful_login_responses": 2,
+    "temporary_token_ttl_seconds": [
+      895,
+      893
+    ],
+    "upstream_redirect_status": 302,
+    "upstream_signed_fields": [
+      "xh",
+      "xm",
+      "platformType",
+      "qsId",
+      "sign",
+      "timestamp"
+    ],
+    "profile": {
+      "brandName": "美的",
+      "coolModeTempMin": 16,
+      "coolModeTempMax": 30
+    },
+    "freshness": "historical cache; not a live observation"
+  },
+  "rea_analysis": {
+    "parsed_javascript_files": 1,
+    "visited_ast_nodes": 133786,
+    "semantic_graph_coverage": "partial",
+    "semantic_node_limit_per_file": 20000
+  },
+  "not_verified": [
+    "physical setpoint change and subsequent device execution",
+    "other control operations",
+    "maximum signature validity across days or longer periods",
+    "recovery through upstream ihome session when a signature is rejected"
+  ],
+  "live_validation": {
+    "reported_on": "2026-10-14",
+    "performed_by": "user in local terminal",
+    "client": "aircon.py",
+    "status_query_success": true,
+    "temperature_command": {
+      "temperature": 23,
+      "acknowledgement_success": true,
+      "following_status_temperatureSet": 23,
+      "physical_change_verified": false
+    },
+    "short_term_renewal": {
+      "expiryExtensionSeconds": 481.1,
+      "remainingSeconds": 890,
+      "tokenChanged": true,
+      "verifiedStatusSuccess": true
+    },
+    "renewal_after_original_token_expiry": {
+      "approximately_minutes_after_expiry": 76,
+      "expiryExtensionSeconds": 5461.4,
+      "remainingSeconds": 894,
+      "tokenChanged": true,
+      "originalSessionAlreadyExpired": true,
+      "verifiedStatusSuccess": true
+    },
+    "scope": "One authorized device; signature maximum lifetime remains unknown. Identifiers, raw responses and precise session timestamps omitted."
+  }
+}

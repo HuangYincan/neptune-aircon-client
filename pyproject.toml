@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neptune-aircon-client"
+version = "0.1.0"
+description = "Python client for Neptune air-conditioning control with temporary authorization renewal"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+neptune-aircon = "aircon:main"
+ihome-aircon = "aircon:main"
+
+[project.urls]
+Repository = "https://github.com/HuangYincan/neptune-aircon-client"
+Issues = "https://github.com/HuangYincan/neptune-aircon-client/issues"
+
+[tool.setuptools]
+py-modules = ["aircon"]
